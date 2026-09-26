@@ -1,57 +1,128 @@
-# CalPal-CS 386 Project Repo
+# CalPal
 
-CalPal is a fitness, budget, and calorie traker website that is a part of an undergraduate student led group project for CS 386. The website is primarily geared towards college students due to their busy schedules and lack of convient healthy food options often making it difficult for them to maintain healthy eating. CalPal solves these aformentioned problem by; tracking a students meals and activity to help them reach fitness goals, helping students find healthy food thats safe for them to eat within their budget, and monitoring their intake of macros. Each of these features are broken down in the website into tabs which take in input from users to customize their fitness experience. The goal of the project primarily is to provide project development experience to the undergraduate students to prepare them for other projects they may work on in the future.
+CalPal is a web-based nutrition, fitness, and food budgeting application designed primarily for college students. The project helps users keep track of what they eat, understand their nutritional intake, manage food-related expenses, and work toward personal health goals.
 
-## Getting Started
+College students often have to balance nutrition, convenience, cost, and fitness while also managing a busy academic schedule. These areas are usually handled separately, which can make it difficult to understand the relationship between eating habits, nutrition goals, and spending. CalPal was created to bring these tools together in one application.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Features
+
+CalPal is designed around several major features:
+
+- Track daily calorie intake
+- Track macronutrients and nutrition goals
+- Record meals and commonly eaten foods
+- Monitor food costs and personal food budgets
+- Account for dietary restrictions and allergies
+- Track personal health and fitness goals
+- Provide access to useful food and campus dining information
+
+The project also uses a Node.js and Express server to support requests for external food and dining information.
+
+## Installation
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Before installing CalPal, make sure you have:
 
-```
-Give examples
-```
+- Git
+- Node.js
+- npm
 
-### Installing
+### Clone the Repository
 
-A step by step series of examples that tell you how to get a development env running
+Clone the project from GitHub:
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```bash
+git clone https://github.com/NAU-OSS/CalPal.git
+cd CalPal
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Install the required Node.js packages:
 
-## Deployment
+```bash
+npm install
+```
 
-Add additional notes about how to deploy this on a live system
+Start the server:
 
-## Versioning
+```bash
+npm start
+```
 
-We use [SemVer](http://semver.org/) for versioning. 
+The server runs locally on port `4000` by default.
 
-## Authors
+## Usage
 
-* **Logan Bankert** - *Developed intial planning diagrams and progress blueprints for the project*
-* **Rita Bolanos** - *Developed intital UI and Mascot design for the project*
-* **Annaliese Dedmore** - *Developed the intial concept and automated testing for the projet* 
-* **Isidro Marquez** - *Developed the intial HTML and Javascript codebase for the project*
-* **Nile Ham** - *Developed the intial concept and helped establish market research*
-* **Luke Flaker** - *Developed intial scope and functionality definition* 
-  
-## Contribution Guidelines
-For Teamembers: When contributing to the Repo or Deliverables make sure to add deliverables to the repository when completed, for these a simple commit message such as "added D1" will suffuce. When adding new visual assets to the website please send potential designs to discord first to be approved, then add them to the repo to avoid clutter with a simple commit message stating what the asset is for. When chaninging code within the website be sure to submit a pull request detailing the changes/additions and what issue number it falls under if applicable.
+After installing the required dependencies and starting the server, open the CalPal web application locally.
+
+Users can use CalPal to record and review information related to their food choices. For example, a student can track the foods they eat during the day, compare their intake with calorie or macronutrient goals, and keep track of how much they are spending on food.
+
+A typical development session can be started with:
+
+```bash
+npm start
+```
+
+The application can then communicate with the local CalPal server at:
+
+```text
+http://localhost:4000
+```
+
+## Project Status
+
+CalPal began as an undergraduate software engineering group project and is now being developed as an open-source project.
+
+The project has a working foundation, but it is still open to improvement. Existing features can be refined and additional functionality can be added by future contributors.
+
+## Roadmap
+
+Current and future areas of development include:
+
+- Improving calorie and macronutrient tracking
+- Improving food cost and budget tracking
+- Expanding support for dietary restrictions and allergies
+- Improving frequently eaten food tracking
+- Improving the user interface and overall usability
+- Adding additional testing and documentation
+
+Development priorities may change as contributors identify bugs, suggest improvements, and add new features. Current development tasks can be found on the project's GitHub Issues page.
+
+## Contributing
+
+CalPal is an open-source project and contributions are welcome.
+
+Contributors can help by fixing bugs, improving documentation, testing existing functionality, improving the interface, or developing new features.
+
+Before making a contribution, review the repository's contribution guidelines and existing GitHub Issues. New contributors are encouraged to begin with smaller issues when available.
+
+## Community and Support
+
+Questions, bug reports, and feature suggestions can be submitted through the CalPal GitHub Issues page:
+
+https://github.com/NAU-OSS/CalPal/issues
+
+The main project repository is available at:
+
+https://github.com/NAU-OSS/CalPal
+
+Using GitHub Issues keeps project discussions public so that users and contributors can find previous questions, follow development, and participate in improving the project.
 
 ## License
 
-This project is licensed under the Unlicense - see the [CalPal License.md](https://github.com/loganb7869/CS386-Project-Repo/blob/main/CalPal%20License.md) file for details
+CalPal is released under the Unlicense. This allows the project to be freely used, modified, distributed, and built upon.
+
+See [license.md](license.md) for the complete license text.
+
+## Authors
+
+CalPal was originally developed as a student software engineering project by:
+
+- Logan Bankert
+- Rita Bolanos
+- Annaliese Dedmore
+- Isidro Marquez
+- Nile Ham
+- Luke Flaker
+
+The project is now open to contributions from the open-source community.
